@@ -1,0 +1,80 @@
+h1{
+    color:rgb(203, 192, 36);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    letter-spacing: .2em;
+    text-align:center;
+    text-decoration: double;  
+    text-shadow: 2px 5px 2px rgb(5, 5, 139);  
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+body{
+    background-image: url(hospital.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.user{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1m;
+    font-weight: bold;
+    text-align: left;
+}
+.user label{
+    display: block;
+}
+.user input{
+    width: 100%;
+    font-size: 1em;
+    box-shadow: 2px;
+    border: 1px solid #006D77;
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing:border-box;
+    margin: 2px 0px 15px;
+    
+}
+.user input:focus{
+    background-color: #96d1d6;
+}
+.gen{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    display: inline;
+    
+}
+.sumake{
+    /* border-top-left-radius: 30px 40px 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border-radius:10px 10px;
+    padding: 10px;
+    width: 300px;
+    background-color:rgb(100, 100, 100, .8);
+    margin: auto;   
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: rgba(210, 204, 81, 0.906);
+    border-color: rgba(210, 204, 81, 0.906);
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: bolder;
+    padding:15px 25px;
+    border-radius: 10px;
+    color:black;
+}
+.gen input{
+    accent-color: rgba(210, 204, 81, 0.906);
+}
